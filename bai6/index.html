@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<script src="./index.js" type="module"></script>
+<link rel="stylesheet" href="index.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCFXAElpK4QwIzyICCOxNmjSflKm8qmh7s",
+    authDomain: "ci-58-5f09b.firebaseapp.com",
+    projectId: "ci-58-5f09b",
+    storageBucket: "ci-58-5f09b.appspot.com",
+    messagingSenderId: "421802561645",
+    appId: "1:421802561645:web:e4dbf79f563ce6dbdaef64"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+
+</html>
